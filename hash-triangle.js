@@ -1,5 +1,6 @@
-for (let line="#";line.length<=8;line+="#"){
-    console.log(line);
-}
-
-//code finished
+function myTriangle(n){
+    for (let line = "#"; line.length < n; line += "#"){
+     console.log(line);
+    }
+    }
+    myTriangle(4);
