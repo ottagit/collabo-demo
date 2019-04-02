@@ -1,7 +1,6 @@
-function triangle(n) {
-    for (let str = "#"; str.length <= n; str += "#"){
-        console.log(str)
-    }
-    
+function triangle(n){
+    for (var i = "#"; i.length <= n; i += "#"){
+    console.log(i);
 }
-triangle(7);
+}
+triangle(8);
